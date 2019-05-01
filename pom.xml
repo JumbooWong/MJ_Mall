@@ -16,6 +16,7 @@
         <module>mj-mall-member</module>
         <module>mj-mall-web</module>
         <module>mj-mall-message</module>
+        <module>mj-mall-test</module>
     </modules>
 
     <parent>
@@ -124,7 +125,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.6.1</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
